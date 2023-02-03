@@ -1,0 +1,9 @@
+project Sudoku is
+
+   for Main use ("affichages_tests.adb", "run_all_tests.adb", "run_tests_resolutions.adb", "run_tests_TAD_Coordonnee.adb", "run_tests_TAD_Ensemble.adb", "run_tests_TAD_Grille.adb", "test_resolution_grille_1.adb", 
+      "test_resolution_grille_2.adb", "test_resolution_grille_4.adb");
+   for Source_Dirs use ("tests", "src/**");
+   for Object_Dir use "obj";
+
+end Sudoku;
+
